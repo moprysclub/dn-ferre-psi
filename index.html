@@ -38,23 +38,23 @@
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
     <!-- Chatwoot Widget JS -->
-    <script>
-      (function (d, t) {
-        var BASE_URL = "https://chatwoot.kevins.club";
-        var g = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-        g.src = BASE_URL + "/packs/js/sdk.js";
-        g.defer = true;
-        g.async = true;
-        s.parentNode.insertBefore(g, s);
-        g.onload = function () {
-          window.chatwootSDK.run({
-            websiteToken: '9b71wMjhUAgj6Re3zj7yZbAT',
-            baseUrl: BASE_URL
-          });
-        };
-      })(document, "script");
-    </script>
+  <script>
+  window.chatwootSettings = {"position":"right","type":"expanded_bubble","launcherTitle":"Online ✔"};
+  (function(d,t) {
+    var BASE_URL="https://chatwoot.kevins.club";
+    var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=BASE_URL+"/packs/js/sdk.js";
+    g.defer = true;
+    g.async = true;
+    s.parentNode.insertBefore(g,s);
+    g.onload=function(){
+      window.chatwootSDK.run({
+        websiteToken: '9b71wMjhUAgj6Re3zj7yZbAT',
+        baseUrl: BASE_URL
+      })
+    }
+  })(document,"script");
+  </script>
 
     <style>
       /* Ajusta o botão do Chatwoot */
