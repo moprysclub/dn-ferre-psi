@@ -61,10 +61,10 @@ const Index = () => {
             }}
           />
           <h1 className="text-2xl leading-tight font-bold text-foreground md:text-4xl md:leading-tight text-balance mb-3 text-center">
-            Dra. Danielle Ferreira
+            Danielle Ferreira
           </h1>
           <p className="text-base md:text-xl text-muted-foreground mb-5 text-center">
-            Psicóloga e Psicanalista • CRP 05/81485
+            <strong>Psicóloga e Psicanalista • CRP 05/81485</strong>
           </p>
 
           <div className="proof-bar mb-6">
@@ -167,3 +167,4 @@ const Index = () => {
 };
 
 export default Index;
+
