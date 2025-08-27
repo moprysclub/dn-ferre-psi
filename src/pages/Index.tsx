@@ -159,13 +159,14 @@ const Index = () => {
 
       {/* Rodapé fixo */}
       <div className="sticky-footer">
-        <a href="tel:21976145467" className="btn btn-call">📞 Ligar</a>
-        <button onClick={openCalendly} className="btn btn-book">📅 Agendar Online</button>
+     {/*   <a href="tel:21976145467" className="btn btn-call">📞 Ligar</a> */}
+        <button onClick={openCalendly} className="btn btn-book">📅 Agendar Consulta</button>
       </div>
     </>
   );
 };
 
 export default Index;
+
 
 
