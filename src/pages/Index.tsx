@@ -37,7 +37,7 @@ const Index = () => {
       <header className="sticky-header">
         <div className="font-semibold text-foreground">Dra. Danielle Ferreira</div>
         <a
-          href="https://wa.me/5521976145467"
+          href="https://api.whatsapp.com/send?phone=5521976145467&text=Ol%C3%A1%2C%20Danielle.%20Gostaria%20de%20maiores%20informa%C3%A7%C3%B5es."
           className="btn-activate"
           target="_blank"
           rel="noopener noreferrer"
@@ -167,6 +167,7 @@ const Index = () => {
 };
 
 export default Index;
+
 
 
 
