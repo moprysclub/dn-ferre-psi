@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Danielle Ferreira | Psicóloga e Psicanalista - Atendimento Online</title>
+    <meta
+      name="description"
+      content="Atendimento psicológico online com abordagem psicanalítica. Escuta acolhedora, ética e profissional. Agende uma conversa com a Dra. Danielle Ferreira - CRP 05/81485."
+    />
+    <meta name="author" content="Dra. Danielle Ferreira" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Dra. Danielle Ferreira | Psicóloga e Psicanalista" />
+    <meta
+      property="og:description"
+      content="Atendimento psicológico online com base na psicanálise. Espaço seguro para autoconhecimento, acolhimento e transformação."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://i.imgur.com/xqJaM0h.jpeg" />
+    <meta name="theme-color" content="#197BFF" />
+
+    <link rel="icon" href="https://i.imgur.com/xqJaM0h.jpeg" type="image/jpeg" />
+
+    <!-- Calendly CSS -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+
+    <!-- Elfsight Google Reviews Widget -->
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Calendly JS -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+    <!-- Chatwoot Widget JS -->
+    <script>
+      (function (d, t) {
+        var BASE_URL = "https://chatwoot.kevins.club";
+        var g = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        g.src = BASE_URL + "/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g, s);
+        g.onload = function () {
+          window.chatwootSDK.run({
+            websiteToken: '9b71wMjhUAgj6Re3zj7yZbAT',
+            baseUrl: BASE_URL
+          });
+        };
+      })(document, "script");
+    </script>
+
+    <style>
+      /* Ajusta o botão do Chatwoot */
+      #cw-bubble-holder .woot-widget-bubble {
+        position: fixed !important;
+        bottom: 65px !important;
+        right: 20px !important;
+        z-index: 2147483647 !important;
+      }
+    </style>
+  </body>
+</html>
