@@ -160,11 +160,12 @@ const Index = () => {
       {/* Rodapé fixo */}
       <div className="sticky-footer">
         <a href="tel:21976145467" className="btn btn-call">📞 Ligar</a>
-        <a href="https://wa.me/5521976145467" className="btn btn-book" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+        <button onClick={openCalendly} className="btn btn-book">📅 Agendar Online</button>
       </div>
     </>
   );
 };
 
 export default Index;
+
 
